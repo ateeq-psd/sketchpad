@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
 * {
     padding: 0;
     margin: 0;
@@ -26,4 +29,28 @@ body{
 
 .item:hover {
     background-color: rgb(58, 58, 58);
+}
+
+.gridSize, .resetButton {
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    border-radius: 200px;
+    border: 2px solid #615a4d;
+    transition-duration: 0.4s;
+}
+
+.button {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.gridSize:hover , .resetButton:hover{
+    background-color: #3a362e;
+    color: #f3eadb;
 }
