@@ -5,7 +5,9 @@
 
 
 
-
+body{
+    background-color: #d6cab6;
+}
 
 
 .container {
@@ -19,6 +21,9 @@
 .item {
     width: calc(100% / 16);
     height: calc(100% / 16);
+    background-color: #d6cab6;
+}
 
-    background-color: rgb(196, 147, 88);
+.item:hover {
+    background-color: rgb(58, 58, 58);
 }
